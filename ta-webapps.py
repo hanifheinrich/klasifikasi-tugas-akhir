@@ -1,6 +1,7 @@
 #import library
 import streamlit as st
 import pandas as pd
+import webbrowser
 from sklearn.naive_bayes import GaussianNB
 from PIL import Image
 
@@ -85,6 +86,13 @@ else :
     st.write("""Ricky Akbar, M.Kom """)
     st.write("""Jefril Rahmadoni, M.Kom """)
     st.write("""Afriyanti Dwi Kartika, MT""")
+    
+#topik terkait
+url = 'http://scholar.unand.ac.id/'
+st.subheader('Referensi terkait Rekomedasi Tugas Akhir yang diberikan dapat dilihat di')
+
+if st.button('Klik Disini'):
+    webbrowser.open_new_tab(url)
 
 
 

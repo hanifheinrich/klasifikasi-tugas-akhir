@@ -1,7 +1,7 @@
 #import library
 import streamlit as st
 import pandas as pd
-import webbrowser
+import webbrowser as wb
 from sklearn.naive_bayes import GaussianNB
 from PIL import Image
 
@@ -92,7 +92,7 @@ url = 'http://scholar.unand.ac.id/'
 st.subheader('Referensi terkait Rekomedasi Tugas Akhir yang diberikan dapat dilihat di')
 
 if st.button('Klik Disini'):
-    webbrowser.open_new_tab(url)
+    wb.open_new_tab(url)
 
 
 

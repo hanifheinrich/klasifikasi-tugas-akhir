@@ -4,4 +4,4 @@ streamlit
 scikit-learn
 pillow
 pip==23.1.2
-webbrowser
+pycopy-webbrowser

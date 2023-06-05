@@ -61,6 +61,31 @@ prediksi_proba = model.predict_proba(df)
 st.subheader('Rekomendasi Topik Tugas Akhir')
 st.write(prediksi)
 
+#dosen
+if (prediksi=="Business Intelligence"):
+    st.subheader('Rekomendasi Dosen Pembimbing')
+    st.write("""Hasdi Putra, MT """)
+    st.write("""Rahmatika Pratama Santi, MT""")
+    st.write("""Dwi Welly Sukma Nirad, MT """)
+    st.write("""Febby Apri Wenando, M.Eng """)
+elif (prediksi=="Sistem Informasi Geografis"):
+    st.subheader('Rekomendasi Dosen Pembimbing')
+    st.write("""Haris Suryamen, M.Sc""")
+    st.write("""Ullya Mega Wahyuni, M.Kom""")
+    st.write("""Hafizah Hanim, M.Kom""")
+    st.write("""Fajril Akbar, M.Sc""")
+elif (prediksi=="Enterprise Architecture"):
+    st.subheader('Rekomendasi Dosen Pembimbing')
+    st.write("""Prof. Surya Afnarius. Ph.D""")
+    st.write("""Husnil Kamil, MT """)
+    st.write("""Aina Hubby Aziira, M.Eng """)
+    st.write("""Adi Arga Arifnur, M.Kom """)
+else :
+    st.subheader('Rekomendasi Dosen Pembimbing')
+    st.write("""Ricky Akbar, M.Kom """)
+    st.write("""Jefril Rahmadoni, M.Kom """)
+    st.write("""Afriyanti Dwi Kartika, MT""")
+
 
 
 

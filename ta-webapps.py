@@ -87,14 +87,6 @@ else :
     st.write("""Jefril Rahmadoni, M.Kom """)
     st.write("""Afriyanti Dwi Kartika, MT""")
     
-#topik terkait
-url = 'http://scholar.unand.ac.id/'
-st.subheader('Referensi terkait Rekomedasi Tugas Akhir yang diberikan dapat dilihat di')
-
-if st.button('Klik Disini'):
-    wb.open_new_tab(url)
-
-
 
 
 

@@ -4,7 +4,7 @@ import webbrowser as wb
 from sklearn.naive_bayes import GaussianNB
 from PIL import Image
 
-st.header('Referensi Judul Rekomedasi Tugas Akhir')
+st.header('Referensi Judul Tugas Akhir Sebelumnya')
 
 dataea=pd.read_csv('ea.csv')
 databi=pd.read_csv('bi.csv')
